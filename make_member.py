@@ -6,7 +6,7 @@ members = []
 # 生成成员数据
 for i in range(1, 901):
     member = {
-        "phone": f"No.{str(i).zfill(4)}",
+        "phone": f"中奖号码",
         "name": f"No.{str(i).zfill(3)}"
     }
     members.append(member)
